@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\katie\Desktop\C++ Research\PBReg\Code\Lib\pbrBasicTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\katie\Desktop\C++ Research\PBReg\Code\Lib\pbrMyFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\katie\Desktop\C++ Research\PBReg\Code\Lib\pbrException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\katie\Desktop\C++ Research\PBReg\Code\Lib\pbrExceptionMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\katie\Desktop\C++ Research\PBReg\Code\Lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C786EB36-69D8-35D6-8940-D5F8AF2D4BE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73A4A312-C233-3A63-A69A-0BC590F938A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1303 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/bigobj;/MP;/W0;/Zi
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:17.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/3.10.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc;/bigobj;/MP;/W0;/Zi;;-std=c++11
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:20.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.25
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/3.10.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3d17a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:23.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3d17a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3d17a.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3d17a.dir\Debug\cmTC_3d17a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3d17a.dir\Debug\cmTC_3d17a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d17a.dir\Debug\\" /Fd"cmTC_3d17a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d17a.dir\Debug\\" /Fd"cmTC_3d17a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3d17a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3d17a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3d17a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3d17a.dir\Debug\testCCompiler.obj
+  cmTC_3d17a.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3d17a.exe
+  cmTC_3d17a.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3d17a.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_3d17a.dir\Debug\cmTC_3d17a.tlog\unsuccessfulbuild".
+  Touching "cmTC_3d17a.dir\Debug\cmTC_3d17a.tlog\cmTC_3d17a.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3d17a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9eb86.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:25.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_9eb86.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9eb86.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9eb86.dir\Debug\cmTC_9eb86.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9eb86.dir\Debug\cmTC_9eb86.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eb86.dir\Debug\\" /Fd"cmTC_9eb86.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eb86.dir\Debug\\" /Fd"cmTC_9eb86.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  /bigobj "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_9eb86.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_9eb86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_9eb86.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9eb86.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9eb86.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_9eb86.exe
+  cmTC_9eb86.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_9eb86.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_9eb86.dir\Debug\cmTC_9eb86.tlog\unsuccessfulbuild".
+  Touching "cmTC_9eb86.dir\Debug\cmTC_9eb86.tlog\cmTC_9eb86.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_9eb86.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3cd45.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:28.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3cd45.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3cd45.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3cd45.dir\Debug\cmTC_3cd45.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3cd45.dir\Debug\cmTC_3cd45.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3cd45.dir\Debug\\" /Fd"cmTC_3cd45.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3cd45.dir\Debug\\" /Fd"cmTC_3cd45.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3cd45.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd45.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3cd45.dir\Debug\testCXXCompiler.obj
+  cmTC_3cd45.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3cd45.exe
+  cmTC_3cd45.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd45.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_3cd45.dir\Debug\cmTC_3cd45.tlog\unsuccessfulbuild".
+  Touching "cmTC_3cd45.dir\Debug\cmTC_3cd45.tlog\cmTC_3cd45.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3cd45.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1d648.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:30.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_1d648.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1d648.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1d648.dir\Debug\cmTC_1d648.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1d648.dir\Debug\cmTC_1d648.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d648.dir\Debug\\" /Fd"cmTC_1d648.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d648.dir\Debug\\" /Fd"cmTC_1d648.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_1d648.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_1d648.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_1d648.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1d648.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_1d648.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_1d648.exe
+  cmTC_1d648.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_1d648.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_1d648.dir\Debug\cmTC_1d648.tlog\unsuccessfulbuild".
+  Touching "cmTC_1d648.dir\Debug\cmTC_1d648.tlog\cmTC_1d648.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_1d648.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b0f9d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:33.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_b0f9d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b0f9d.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b0f9d.dir\Debug\cmTC_b0f9d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b0f9d.dir\Debug\cmTC_b0f9d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0f9d.dir\Debug\\" /Fd"cmTC_b0f9d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0f9d.dir\Debug\\" /Fd"cmTC_b0f9d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_b0f9d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_b0f9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_b0f9d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b0f9d.dir\Debug\feature_tests.obj
+  cmTC_b0f9d.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_b0f9d.exe
+  cmTC_b0f9d.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_b0f9d.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_b0f9d.dir\Debug\cmTC_b0f9d.tlog\unsuccessfulbuild".
+  Touching "cmTC_b0f9d.dir\Debug\cmTC_b0f9d.tlog\cmTC_b0f9d.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_b0f9d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21c4d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 02/03/2018 17:52:36.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_21c4d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_21c4d.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_21c4d.dir\Debug\cmTC_21c4d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_21c4d.dir\Debug\cmTC_21c4d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21c4d.dir\Debug\\" /Fd"cmTC_21c4d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21c4d.dir\Debug\\" /Fd"cmTC_21c4d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_21c4d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_21c4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_21c4d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_21c4d.dir\Debug\src.obj
+  cmTC_21c4d.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_21c4d.exe
+  cmTC_21c4d.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_21c4d.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_21c4d.dir\Debug\cmTC_21c4d.tlog\unsuccessfulbuild".
+  Touching "cmTC_21c4d.dir\Debug\cmTC_21c4d.tlog\cmTC_21c4d.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_21c4d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.35
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7e144.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:00:25.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_7e144.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7e144.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7e144.dir\Debug\cmTC_7e144.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7e144.dir\Debug\cmTC_7e144.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e144.dir\Debug\\" /Fd"cmTC_7e144.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e144.dir\Debug\\" /Fd"cmTC_7e144.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_7e144.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7e144.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7e144.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7e144.dir\Debug\src.obj
+  cmTC_7e144.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_7e144.exe
+  cmTC_7e144.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7e144.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_7e144.dir\Debug\cmTC_7e144.tlog\unsuccessfulbuild".
+  Touching "cmTC_7e144.dir\Debug\cmTC_7e144.tlog\cmTC_7e144.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_7e144.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:30.79
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7b548.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:01:52.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_7b548.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7b548.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7b548.dir\Debug\cmTC_7b548.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7b548.dir\Debug\cmTC_7b548.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7b548.dir\Debug\\" /Fd"cmTC_7b548.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7b548.dir\Debug\\" /Fd"cmTC_7b548.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_7b548.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7b548.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7b548.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7b548.dir\Debug\src.obj
+  cmTC_7b548.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_7b548.exe
+  cmTC_7b548.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_7b548.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_7b548.dir\Debug\cmTC_7b548.tlog\unsuccessfulbuild".
+  Touching "cmTC_7b548.dir\Debug\cmTC_7b548.tlog\cmTC_7b548.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_7b548.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:27.15
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ad0fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:11:26.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_ad0fc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ad0fc.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ad0fc.dir\Debug\cmTC_ad0fc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ad0fc.dir\Debug\cmTC_ad0fc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ad0fc.dir\Debug\\" /Fd"cmTC_ad0fc.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ad0fc.dir\Debug\\" /Fd"cmTC_ad0fc.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_ad0fc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_ad0fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_ad0fc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ad0fc.dir\Debug\src.obj
+  cmTC_ad0fc.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_ad0fc.exe
+  cmTC_ad0fc.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_ad0fc.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_ad0fc.dir\Debug\cmTC_ad0fc.tlog\unsuccessfulbuild".
+  Touching "cmTC_ad0fc.dir\Debug\cmTC_ad0fc.tlog\cmTC_ad0fc.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_ad0fc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:24.31
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c353f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:13:53.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_c353f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c353f.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c353f.dir\Debug\cmTC_c353f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c353f.dir\Debug\cmTC_c353f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c353f.dir\Debug\\" /Fd"cmTC_c353f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c353f.dir\Debug\\" /Fd"cmTC_c353f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_c353f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c353f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c353f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c353f.dir\Debug\src.obj
+  cmTC_c353f.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_c353f.exe
+  cmTC_c353f.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c353f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_c353f.dir\Debug\cmTC_c353f.tlog\unsuccessfulbuild".
+  Touching "cmTC_c353f.dir\Debug\cmTC_c353f.tlog\cmTC_c353f.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_c353f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:26.37
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_92d0a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:24:57.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_92d0a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_92d0a.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_92d0a.dir\Debug\cmTC_92d0a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_92d0a.dir\Debug\cmTC_92d0a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_92d0a.dir\Debug\\" /Fd"cmTC_92d0a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_92d0a.dir\Debug\\" /Fd"cmTC_92d0a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_92d0a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_92d0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_92d0a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_92d0a.dir\Debug\src.obj
+  cmTC_92d0a.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_92d0a.exe
+  cmTC_92d0a.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_92d0a.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_92d0a.dir\Debug\cmTC_92d0a.tlog\unsuccessfulbuild".
+  Touching "cmTC_92d0a.dir\Debug\cmTC_92d0a.tlog\cmTC_92d0a.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_92d0a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:15.00
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24656.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:39:52.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_24656.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_24656.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_24656.dir\Debug\cmTC_24656.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_24656.dir\Debug\cmTC_24656.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24656.dir\Debug\\" /Fd"cmTC_24656.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24656.dir\Debug\\" /Fd"cmTC_24656.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_24656.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24656.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24656.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_24656.dir\Debug\src.obj
+  cmTC_24656.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_24656.exe
+  cmTC_24656.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24656.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_24656.dir\Debug\cmTC_24656.tlog\unsuccessfulbuild".
+  Touching "cmTC_24656.dir\Debug\cmTC_24656.tlog\cmTC_24656.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_24656.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:10.08
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_23ae6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:40:23.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_23ae6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_23ae6.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_23ae6.dir\Debug\cmTC_23ae6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_23ae6.dir\Debug\cmTC_23ae6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_23ae6.dir\Debug\\" /Fd"cmTC_23ae6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_23ae6.dir\Debug\\" /Fd"cmTC_23ae6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_23ae6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_23ae6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_23ae6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_23ae6.dir\Debug\src.obj
+  cmTC_23ae6.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_23ae6.exe
+  cmTC_23ae6.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_23ae6.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_23ae6.dir\Debug\cmTC_23ae6.tlog\unsuccessfulbuild".
+  Touching "cmTC_23ae6.dir\Debug\cmTC_23ae6.tlog\cmTC_23ae6.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_23ae6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.57
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6e471.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:48:32.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_6e471.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6e471.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6e471.dir\Debug\cmTC_6e471.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6e471.dir\Debug\cmTC_6e471.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e471.dir\Debug\\" /Fd"cmTC_6e471.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e471.dir\Debug\\" /Fd"cmTC_6e471.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_6e471.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_6e471.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_6e471.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6e471.dir\Debug\src.obj
+  cmTC_6e471.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_6e471.exe
+  cmTC_6e471.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_6e471.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_6e471.dir\Debug\cmTC_6e471.tlog\unsuccessfulbuild".
+  Touching "cmTC_6e471.dir\Debug\cmTC_6e471.tlog\cmTC_6e471.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_6e471.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:12.51
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cb079.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:49:40.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_cb079.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cb079.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cb079.dir\Debug\cmTC_cb079.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cb079.dir\Debug\cmTC_cb079.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb079.dir\Debug\\" /Fd"cmTC_cb079.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb079.dir\Debug\\" /Fd"cmTC_cb079.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_cb079.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_cb079.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_cb079.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cb079.dir\Debug\src.obj
+  cmTC_cb079.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_cb079.exe
+  cmTC_cb079.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_cb079.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_cb079.dir\Debug\cmTC_cb079.tlog\unsuccessfulbuild".
+  Touching "cmTC_cb079.dir\Debug\cmTC_cb079.tlog\cmTC_cb079.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_cb079.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.66
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_56edf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:52:31.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_56edf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_56edf.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_56edf.dir\Debug\cmTC_56edf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_56edf.dir\Debug\cmTC_56edf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56edf.dir\Debug\\" /Fd"cmTC_56edf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56edf.dir\Debug\\" /Fd"cmTC_56edf.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_56edf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_56edf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_56edf.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_56edf.dir\Debug\src.obj
+  cmTC_56edf.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_56edf.exe
+  cmTC_56edf.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_56edf.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_56edf.dir\Debug\cmTC_56edf.tlog\unsuccessfulbuild".
+  Touching "cmTC_56edf.dir\Debug\cmTC_56edf.tlog\cmTC_56edf.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_56edf.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.96
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24998.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:52:47.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_24998.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_24998.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_24998.dir\Debug\cmTC_24998.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_24998.dir\Debug\cmTC_24998.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24998.dir\Debug\\" /Fd"cmTC_24998.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24998.dir\Debug\\" /Fd"cmTC_24998.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_24998.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24998.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24998.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_24998.dir\Debug\src.obj
+  cmTC_24998.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_24998.exe
+  cmTC_24998.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_24998.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_24998.dir\Debug\cmTC_24998.tlog\unsuccessfulbuild".
+  Touching "cmTC_24998.dir\Debug\cmTC_24998.tlog\cmTC_24998.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_24998.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.95
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_18cda.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 17:53:05.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_18cda.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18cda.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18cda.dir\Debug\cmTC_18cda.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18cda.dir\Debug\cmTC_18cda.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18cda.dir\Debug\\" /Fd"cmTC_18cda.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18cda.dir\Debug\\" /Fd"cmTC_18cda.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_18cda.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_18cda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_18cda.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_18cda.dir\Debug\src.obj
+  cmTC_18cda.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_18cda.exe
+  cmTC_18cda.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_18cda.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_18cda.dir\Debug\cmTC_18cda.tlog\unsuccessfulbuild".
+  Touching "cmTC_18cda.dir\Debug\cmTC_18cda.tlog\cmTC_18cda.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_18cda.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.28
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_346e4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 18:35:26.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_346e4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_346e4.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_346e4.dir\Debug\cmTC_346e4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_346e4.dir\Debug\cmTC_346e4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_346e4.dir\Debug\\" /Fd"cmTC_346e4.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_346e4.dir\Debug\\" /Fd"cmTC_346e4.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_346e4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_346e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_346e4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_346e4.dir\Debug\src.obj
+  cmTC_346e4.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_346e4.exe
+  cmTC_346e4.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_346e4.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_346e4.dir\Debug\cmTC_346e4.tlog\unsuccessfulbuild".
+  Touching "cmTC_346e4.dir\Debug\cmTC_346e4.tlog\cmTC_346e4.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_346e4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.75
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bc193.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 19:45:21.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_bc193.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bc193.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bc193.dir\Debug\cmTC_bc193.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bc193.dir\Debug\cmTC_bc193.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc193.dir\Debug\\" /Fd"cmTC_bc193.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc193.dir\Debug\\" /Fd"cmTC_bc193.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_bc193.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bc193.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bc193.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bc193.dir\Debug\src.obj
+  cmTC_bc193.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_bc193.exe
+  cmTC_bc193.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bc193.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_bc193.dir\Debug\cmTC_bc193.tlog\unsuccessfulbuild".
+  Touching "cmTC_bc193.dir\Debug\cmTC_bc193.tlog\cmTC_bc193.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_bc193.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:17.28
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c5efa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 19:45:54.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_c5efa.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c5efa.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c5efa.dir\Debug\cmTC_c5efa.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c5efa.dir\Debug\cmTC_c5efa.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5efa.dir\Debug\\" /Fd"cmTC_c5efa.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5efa.dir\Debug\\" /Fd"cmTC_c5efa.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_c5efa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c5efa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c5efa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c5efa.dir\Debug\src.obj
+  cmTC_c5efa.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_c5efa.exe
+  cmTC_c5efa.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_c5efa.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_c5efa.dir\Debug\cmTC_c5efa.tlog\unsuccessfulbuild".
+  Touching "cmTC_c5efa.dir\Debug\cmTC_c5efa.tlog\cmTC_c5efa.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_c5efa.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.25
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e8b6c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 19:48:29.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_e8b6c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e8b6c.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e8b6c.dir\Debug\cmTC_e8b6c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e8b6c.dir\Debug\cmTC_e8b6c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8b6c.dir\Debug\\" /Fd"cmTC_e8b6c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8b6c.dir\Debug\\" /Fd"cmTC_e8b6c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_e8b6c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_e8b6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_e8b6c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e8b6c.dir\Debug\src.obj
+  cmTC_e8b6c.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_e8b6c.exe
+  cmTC_e8b6c.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_e8b6c.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_e8b6c.dir\Debug\cmTC_e8b6c.tlog\unsuccessfulbuild".
+  Touching "cmTC_e8b6c.dir\Debug\cmTC_e8b6c.tlog\cmTC_e8b6c.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_e8b6c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.96
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4b8b7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 19:48:48.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_4b8b7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4b8b7.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4b8b7.dir\Debug\cmTC_4b8b7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4b8b7.dir\Debug\cmTC_4b8b7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b8b7.dir\Debug\\" /Fd"cmTC_4b8b7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b8b7.dir\Debug\\" /Fd"cmTC_4b8b7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_4b8b7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_4b8b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_4b8b7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4b8b7.dir\Debug\src.obj
+  cmTC_4b8b7.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_4b8b7.exe
+  cmTC_4b8b7.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_4b8b7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_4b8b7.dir\Debug\cmTC_4b8b7.tlog\unsuccessfulbuild".
+  Touching "cmTC_4b8b7.dir\Debug\cmTC_4b8b7.tlog\cmTC_4b8b7.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_4b8b7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.26
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3e7fd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:16:29.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3e7fd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3e7fd.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3e7fd.dir\Debug\cmTC_3e7fd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3e7fd.dir\Debug\cmTC_3e7fd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3e7fd.dir\Debug\\" /Fd"cmTC_3e7fd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3e7fd.dir\Debug\\" /Fd"cmTC_3e7fd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3e7fd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3e7fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3e7fd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3e7fd.dir\Debug\src.obj
+  cmTC_3e7fd.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_3e7fd.exe
+  cmTC_3e7fd.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_3e7fd.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_3e7fd.dir\Debug\cmTC_3e7fd.tlog\unsuccessfulbuild".
+  Touching "cmTC_3e7fd.dir\Debug\cmTC_3e7fd.tlog\cmTC_3e7fd.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_3e7fd.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:27.45
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aebb7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:17:43.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_aebb7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_aebb7.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_aebb7.dir\Debug\cmTC_aebb7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_aebb7.dir\Debug\cmTC_aebb7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_aebb7.dir\Debug\\" /Fd"cmTC_aebb7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_aebb7.dir\Debug\\" /Fd"cmTC_aebb7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_aebb7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_aebb7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_aebb7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_aebb7.dir\Debug\src.obj
+  cmTC_aebb7.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_aebb7.exe
+  cmTC_aebb7.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_aebb7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_aebb7.dir\Debug\cmTC_aebb7.tlog\unsuccessfulbuild".
+  Touching "cmTC_aebb7.dir\Debug\cmTC_aebb7.tlog\cmTC_aebb7.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_aebb7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:26.83
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8e73e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:34:41.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_8e73e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8e73e.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8e73e.dir\Debug\cmTC_8e73e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8e73e.dir\Debug\cmTC_8e73e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e73e.dir\Debug\\" /Fd"cmTC_8e73e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e73e.dir\Debug\\" /Fd"cmTC_8e73e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_8e73e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_8e73e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_8e73e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8e73e.dir\Debug\src.obj
+  cmTC_8e73e.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_8e73e.exe
+  cmTC_8e73e.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_8e73e.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_8e73e.dir\Debug\cmTC_8e73e.tlog\unsuccessfulbuild".
+  Touching "cmTC_8e73e.dir\Debug\cmTC_8e73e.tlog\cmTC_8e73e.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_8e73e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:24.73
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bfad0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:35:38.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_bfad0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bfad0.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bfad0.dir\Debug\cmTC_bfad0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bfad0.dir\Debug\cmTC_bfad0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfad0.dir\Debug\\" /Fd"cmTC_bfad0.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfad0.dir\Debug\\" /Fd"cmTC_bfad0.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_bfad0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bfad0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bfad0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bfad0.dir\Debug\src.obj
+  cmTC_bfad0.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_bfad0.exe
+  cmTC_bfad0.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_bfad0.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_bfad0.dir\Debug\cmTC_bfad0.tlog\unsuccessfulbuild".
+  Touching "cmTC_bfad0.dir\Debug\cmTC_bfad0.tlog\cmTC_bfad0.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_bfad0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:22.86
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f17c8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:36:34.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_f17c8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f17c8.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f17c8.dir\Debug\cmTC_f17c8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f17c8.dir\Debug\cmTC_f17c8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f17c8.dir\Debug\\" /Fd"cmTC_f17c8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f17c8.dir\Debug\\" /Fd"cmTC_f17c8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_f17c8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_f17c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_f17c8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f17c8.dir\Debug\src.obj
+  cmTC_f17c8.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_f17c8.exe
+  cmTC_f17c8.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_f17c8.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_f17c8.dir\Debug\cmTC_f17c8.tlog\unsuccessfulbuild".
+  Touching "cmTC_f17c8.dir\Debug\cmTC_f17c8.tlog\cmTC_f17c8.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_f17c8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:19.86
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_36cbb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 03/03/2018 20:45:54.
+Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_36cbb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_36cbb.dir\Debug\".
+  Creating directory "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_36cbb.dir\Debug\cmTC_36cbb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_36cbb.dir\Debug\cmTC_36cbb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36cbb.dir\Debug\\" /Fd"cmTC_36cbb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W0 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "HAS_FLAG_-std=c11" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36cbb.dir\Debug\\" /Fd"cmTC_36cbb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  /bigobj "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_36cbb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_36cbb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_36cbb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_36cbb.dir\Debug\src.obj
+  cmTC_36cbb.vcxproj -> C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\Debug\cmTC_36cbb.exe
+  cmTC_36cbb.vcxproj -> C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/CMakeTmp/Debug/cmTC_36cbb.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_36cbb.dir\Debug\cmTC_36cbb.tlog\unsuccessfulbuild".
+  Touching "cmTC_36cbb.dir\Debug\cmTC_36cbb.tlog\cmTC_36cbb.lastbuildstate".
+Done Building Project "C:\Users\katie\Desktop\C++ Research\PBReg-build\PBREG-build\CMakeFiles\CMakeTmp\cmTC_36cbb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:21.16
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,37 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/Code/CMakeFiles/generate.stamp is up-to-date.
+  CMake is re-running because C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/Code/Lib/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/katie/Desktop/C++ Research/PBReg/Code/Lib/CMakeLists.txt'
+    is newer than 'C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/Code/Lib/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version  to target Windows 10.0.16299.
+  -- Performing Test HAS_FLAG_-std=c11
+  -- Performing Test HAS_FLAG_-std=c11 - Success
+  -- Forcing MSVC to use static runtime variables.
+  -- Initial build flags:
+  --   'CMAKE_C_FLAGS_DEBUG': /MTd /Zi /Ob0 /Od /RTC1
+  --   'CMAKE_C_FLAGS_MINSIZEREL': /MT /O1 /Ob1 /DNDEBUG
+  --   'CMAKE_C_FLAGS_RELEASE': /MT /O2 /Ob2 /DNDEBUG
+  --   'CMAKE_C_FLAGS_RELWITHDEBINFO': /MT /Zi /O2 /Ob1 /DNDEBUG
+  --   'CMAKE_CXX_FLAGS_DEBUG': /MTd /Zi /Ob0 /Od /RTC1
+  --   'CMAKE_CXX_FLAGS_MINSIZEREL': /MT /O1 /Ob1 /DNDEBUG
+  --   'CMAKE_CXX_FLAGS_RELEASE': /MT /O2 /Ob2 /DNDEBUG
+  --   'CMAKE_CXX_FLAGS_RELWITHDEBINFO': /MT /Zi /O2 /Ob1 /DNDEBUG
+  -- 
+  CMAKE_SOURCE_DIR=C:/Users/katie/Desktop/C++ Research/PBReg
+  CMAKE_BINARY_DIR=C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build
+  -- Boost version: 1.64.0
+  -- Found the following Boost libraries:
+  --   filesystem
+  --   system
+  --   date_time
+  --   regex
+  --   thread
+  --   iostreams
+  --   program_options
+  --   chrono
+  CreateWindowsBatchScript: Creating C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build/StartVS_Release.bat
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/katie/Desktop/C++ Research/PBReg-build/PBREG-build
